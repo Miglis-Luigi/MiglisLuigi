@@ -1,0 +1,97 @@
+/* Zera o margin e o border  */
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+/* Seções */
+
+/* Confg. o Body */
+body{
+    background-image: url(../Imagens/icone-guitarra2\ sem\ fundo.png);
+}
+/* Confg. o Header */
+header{
+    background-color: red;
+    background-image: url(../Imagens/fundo\ header.png);
+    height: 226px;
+    font-family: 'Blaka Hollow', cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+/* Faz os blocos de texto na pagina */
+section{
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #e8e8e8;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+/* Configura o Footer */
+footer{
+    background-color: #828282 ;
+    margin: 15px 0px 0px 0px;
+    font-size: small;
+    text-align: center;
+}
+/* Define o padding do formulario inteiro */
+form{
+    padding: 7px;
+}
+
+/* Fontes */
+
+/* Define todos os links config. padrão */
+a{
+    padding-right: 5px;
+    font-size: 20px;
+}
+/* Define o padding do link  */
+#linkPaginaInicial{
+    padding: 7px;
+}
+
+/* Ids */
+
+/* Define o rodapé */
+#rodape{
+    background-color: #828282 ;
+    margin: 15px 0px 0px;
+    text-align: center;
+}
+/* Config. a foto do instagram */
+#insta{
+    height: 20px;
+    width: 20px;
+}
+/* Config. a foto do github */
+#git{
+    padding-left: 3px;
+    height: 17px;
+    width: 17px;
+}
+
+
+/* Funções */
+
+/* Define a cor dos links */
+a:link, a:visited{
+    color: goldenrod ;
+}
+/* Define a cor dos links quando o mouse estiver em cima */
+a:hover{
+    color: goldenrod;
+    background: #FFFFF0;
+}
+/* Define a cor do link quando estiver "pressonado" */
+a:active{
+    color: #696969;
+}
+/* Deixa o fundo do input de outra cor quando selecionado */
+input:focus{
+    background-color: #ddd;
+}
+/* Define o fundo da caixa de texto de outra cor quando selecionado */
+textarea:focus{
+    background-color: #ddd;
+}
